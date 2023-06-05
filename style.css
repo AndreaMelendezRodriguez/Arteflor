@@ -1,0 +1,477 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+/* ZONA HEADER */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(51, 0, 0);
+    font-size: large;
+    margin-right: 8vw;
+    margin-left: 4vw;
+    margin-bottom: 2vh;
+    margin-top: 3vh;
+}
+
+#logo {
+    width: 250px;
+    height: 150px;
+    padding-left: 4vw;
+}
+
+header section div p i {
+    font-size: x-large;
+    padding: 1vh;
+}
+
+header section div p i:hover {
+    color: rgb(156, 96, 96);
+    transition-duration: 0.4s;
+}
+
+
+/* ZONA NAV */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 16vw;
+    font-weight: 600;
+    color: rgb(51, 0, 0);
+}
+
+.navnav {
+    color: rgb(51, 0, 0);
+}
+
+.navnav:hover {
+    color: rgb(156, 96, 96);
+    transition-duration: 0.2s;
+}
+
+nav ul li {
+    padding-left: 4vw;
+}
+
+#cesta {
+    padding-right: 3vw;
+    margin-left: 0;
+    font-size: 15px;
+}
+
+#cesta i {
+    margin-left: 1vw;
+    font-size: x-large;
+}
+
+nav ul li:hover {
+    font-size: large;
+    transition-duration: 0.2s;
+}
+
+
+/* ZONA MAIN */
+
+.portada {
+    display: flex;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url(./img/3.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.textoportada {
+    border: 2px rgb(255, 255, 255) solid;
+    text-align: center;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.titulo {
+    font-size: 45px;
+    font-weight: 400;
+    color: rgb(163, 99, 99);
+}
+
+.subtitulo {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.seccionnosotros {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.nosotros {
+    text-align: left;
+}
+
+.subtitulonosotros {
+    font-size: x-large;
+    color: rgb(163, 99, 99);
+    font-weight: 400;
+}
+
+h2[class="textonosotros"] {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.textonosotros {
+    font-size: large;
+    margin-bottom: 60px;
+}
+
+a[class="buttonnosotros"] {
+    border: 1px solid white;
+    background-color: rgb(163, 99, 99);
+    color: white;
+    font-size: larger;
+    font-weight: 400;
+    border-radius: 8%;
+    padding: 12px;
+}
+
+a[class="buttonnosotros"]:hover {
+    background-color: rgb(94, 56, 56);
+    transition-duration: 0.4s;
+    font-size: 21px;
+}
+
+.bestsellers {
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border-radius: 4%;
+    box-shadow: 0 2px 4px rgba(46, 8, 8, 0.15);
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.productos:hover {
+    background-color: rgb(231, 226, 226);
+    transition-duration: 0.5s;
+}
+
+.cardsimg {
+    width: 230px;
+    align-self: center;
+    margin-bottom: 1rem;
+    border-radius: 4%;
+}
+
+.cardsname,
+.cardsprecio {
+    font-weight: 700;
+    color: #424242;
+}
+
+.cardsname {
+    font-size: 23px;
+}
+
+.cardsdescription,
+.cardsprecio {
+    font-size: 14px;
+}
+
+.cardsdescription {
+    margin-bottom: 2vh;
+}
+
+.cardsprecio {
+    padding-bottom: 10px;
+}
+
+.cardsbutton {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: larger;
+}
+
+.cardsbutton:link {
+    color: rgb(51, 0, 0);
+}
+
+.cardsbutton:visited {
+    color: rgb(51, 0, 0);
+}
+
+.cardsbutton:hover {
+    font-size: x-large;
+    color: rgb(163, 99, 99);
+    transition-duration: 0.3s;
+}
+
+.datos {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.datos1 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url(./img/2.jpg);
+    width: 33.3%;
+    height: 400px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.datos2 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url(./img/3.jpg);
+    width: 33.3%;
+    height: 400px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.datos3 {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.3)), url(./img/5.jpg);
+    width: 33.3%;
+    height: 400px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.titulodatos {
+    margin-top: 130px;
+    font-size: 43px;
+    color: white;
+    font-weight: 300;
+}
+
+.textodatos {
+    margin-top: 12px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.buttondatos {
+    border: 1px solid rgb(163, 99, 99);
+    background-color: rgb(163, 99, 99);
+    color: white;
+    font-size: larger;
+    font-weight: 300;
+    border-radius: 8%;
+    padding-bottom: 12px;
+    padding-top: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.buttondatos:hover {
+    background-color: rgb(94, 56, 56);
+    border: 1px solid rgb(94, 56, 56);
+    transition-duration: 0.4s;
+    font-size: 21px;
+}
+
+#preguntas {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    justify-content: center;
+    flex-basis: 100vw;
+}
+
+.titulopreguntas {
+    font-size: x-large;
+    color: rgb(163, 99, 99);
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 100px;
+}
+
+.pregunt {
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-align: left;
+    justify-items: center;
+}
+
+.respuest {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    text-align: left;
+    margin-top: 5px;
+    justify-content: center;
+}
+
+/* MEDIA  */
+
+/* Pantalla de movil */
+@media screen and (max-width: 480px) {
+    .datos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .datos1 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .datos2 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .datos3 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+}
+
+/* Pantalla de tablet */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .datos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .datos1 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .datos2 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+    .datos3 {
+        width: 100%;
+        height: fit-content;
+        margin-top: 20px;
+    }
+
+}
+
+
+/* ZONA FOOTER */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    margin: 0;
+    margin-top: 2vh;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+.contenido {
+    margin-top: 60px;
+    text-align: left;
+    flex-basis: 15%;
+}
+
+.contenido h4 {
+    border: none;
+    margin-bottom: 2VH;
+}
+
+.contenido p {
+    color: rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+#calle {
+    color: rgb(134, 131, 131);
+}
+
+.foot:link {
+    color: rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+.foot:visited {
+    color: rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+.foot:hover {
+    color: rgb(51, 0, 0);
+    font-size: large;
+    transition-duration: 0.5s;
+}
+
+footer section div p i {
+    padding-right: 20px;
+    font-size: 30px;
+    margin-top: 2vh;
+
+}
+
+i:link {
+    color: rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+i:visited {
+    color: rgb(134, 131, 131);
+    padding-bottom: 20px;
+}
+
+i:hover {
+    color: rgb(51, 0, 0);
+    transition-duration: 0.4s;
+}
